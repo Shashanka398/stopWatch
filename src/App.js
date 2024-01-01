@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App">
       <h1>Stopwatch</h1>
-      <span>Time:</span><span>{formData(timer)}</span>
+      <span>Time : </span><span>{formData(timer)}</span>
       <div>
       <button onClick={onHandle}>{activated?"Stop":"Start"}</button>
       <button onClick={reset}>Reset</button>
